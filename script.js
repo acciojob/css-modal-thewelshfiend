@@ -1,4 +1,6 @@
 //your JS code here. If required.
+		document.getElementById("modal").style.display = "none";
+
         document.getElementById("openModal").onclick = function() {
             document.getElementById("modal").style.display = "block";
         };
